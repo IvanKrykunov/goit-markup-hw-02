@@ -1,3 +1,13 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --text-color: #000000;
+  --hero-backgound: #2f303a;
+  --background-main-color: #ffffff;
+  --background-secondary-color: #f5f4fa;
+  --accent-color: #2196f3;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
