@@ -29,32 +29,28 @@ body {
 }
 /* навігація хедера */
 .link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration-line: none;
 }
 .links {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration-line: none;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .link:hover,
-:focus {
-  color: #2196f3;
+.link:focus {
+  color: var(--accent-color);
 }
 .links:hover,
-:focus {
-  color: #2196f3;
+.links:focus {
+  color: var(--accent-color);
 }
 
 .logo-heder {
