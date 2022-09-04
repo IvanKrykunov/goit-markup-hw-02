@@ -110,7 +110,6 @@ body {
   color: #212121;
 }
 .paragraph-s2 {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -146,7 +145,6 @@ body {
   color: var(--primary-text-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -162,6 +160,7 @@ body {
   background: var(--hero-backgound);
 }
 .address {
+  font-style: inherit;
 }
 .address-k {
   font-weight: 400;
